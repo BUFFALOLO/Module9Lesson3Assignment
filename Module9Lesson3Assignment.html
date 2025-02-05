@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lauren Farrell - BUFFALOLO">
+    <title>Galactic Adventures</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        header {
+            background-image: url('images/background.jpg');
+            background-size: cover;
+            height: 200pt;
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+            color: white; 
+            text-align: center;
+        }
+        header p {
+            text-align: center; 
+        }
+        .btn-purple {
+            background-color: rgb(32, 3, 112); /* Change button color to purple */
+            color: white; /* Ensure text is readable */
+        }
+        footer {
+            background-color: lightgray; /* Set footer background to light gray */
+            padding: 20px 0; /* Optional: Add some padding for better spacing */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="display-1">Galactic Adventures</h1>
+        <p class="lead">Welcome to Galactic Adventures! We provide many services to make your party a BLAST!</p>
+    </header>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="images/party.png" alt="Party Planning" class="img-fluid mb-4">
+                <h3 class="display-4">Party Planning</h3>
+                <p class="text-muted">We specialize in creating unforgettable parties tailored to your needs.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="images/food.png" alt="Catering Services" class="img-fluid mb-4">
+                <h3 class="display-4">Catering Services</h3>
+                <p class="text-muted">Our catering services offer a variety of delicious options to satisfy every guest.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="images/music.png" alt="Entertainment" class="img-fluid mb-4">
+                <h3 class="display-4">Entertainment</h3>
+                <p class="text-muted">We provide top-notch entertainment to keep your guests engaged and having fun.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="display-4">About Us</h2>
+                <p class="text-muted">At Galactic Adventures, we are dedicated to providing exceptional party planning services. Our team works tirelessly to ensure that every event is a memorable experience for you and your guests.</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="fw-bold">Testimonials</h3>
+                <p class="text-muted">Galactic Adventures made my kids party OUT OF THIS WORLD! Highly recommend! 5 Stars! *****</p>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <h2 class="display-4">Our Services</h2>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Party Planning</td>
+                        <td>We help you plan the perfect party.</td>
+                    </tr>
+                    <tr>
+                        <td>Catering</td>
+                        <td>Delicious food for your guests.</td>
+                    </tr>
+                    <tr>
+                        <td>Entertainment</td>
+                        <td>Fun activities for everyone.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer class="container my-5 text-center">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="fw-bold">Contact Information</h3>
+                <p>Email: info@galacticadventures.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Follow Us</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-primary">Facebook</a></li>
+                    <li><a href="#" class="text-primary">Instagram</a></li>
+                    <li><a href="#" class="text-primary">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Newsletter Signup</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <button type="submit" class="btn btn-purple">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
